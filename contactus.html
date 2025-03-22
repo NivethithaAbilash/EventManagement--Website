@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Event Management System</title>
+    <link rel="stylesheet" href="cont.css">
+</head>
+<body>
+    <header>
+  <center>    <h1>Contact Us</h1></center>
+        </header>
+    <main>
+       <body>
+    <center>    <div class="container">
+        <h2>Event Feedback Form</h2>
+        <form action="submit_feedback.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="event"> Experience </label>
+            <input type="text" id="event" name="event" required>
+
+            <label for="rating">Event Rating:</label>
+            <select id="rating" name="rating" required>
+                <option value="5">Excellent</option>
+                <option value="4">Very Good</option>
+                <option value="3">Good</option>
+                <option value="2">Fair</option>
+                <option value="1">Poor</option>
+            </select>
+
+            <label for="comments">Additional Comments:</label>
+            <textarea id="comments" name="comments" rows="4" required></textarea>
+
+            <button type="submit">Submit Feedback</button></center>
+            
+        
+    </div>
+
+
+  <center>      <p>If you have any questions, please feel free to contact us.</p>
+  </center>
+    </main>
+    <footer><center>
+        <div class="contact-details">
+            <h3>Head Office</h3>
+            <p>
+                ABC Event Management Inc.<br>
+                1234 Main Street<br>
+                Suite 500<br>
+                New York, NY 10001<br>
+                USA
+            </p>
+            
+            <h3>Email</h3>
+            <p>
+                General Inquiries: <a href="mailto:info@abcevents.com">info@abcevents.com</a><br>
+                Customer Support: <a href="mailto:support@abcevents.com">support@abcevents.com</a>
+            </p>
+            
+            <h3>Phone</h3>
+            <p>
+                Main Line: +1 (555) 123-4567<br>
+                Customer Support: +1 (555) 987-6543
+            </p>
+            
+            <h3>Office Hours</h3>
+            <p>
+                Monday - Friday: 9:00 AM - 6:00 PM (EST)<br>
+                Saturday - Sunday: Closed
+            </p>
+        </div>
+    </div>
+        <p>&copy; 2024 Event Management System</p> </center>
+    </footer>
+</body>
+</html>
