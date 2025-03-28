@@ -12,6 +12,11 @@ body {
     background-color: #f4f4f4;
     color: #0a0758;
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
 }
 
 
@@ -103,13 +108,8 @@ footer {
 }
 .container {
     width: 450px;
-    margin: 50px auto;
     background-color: #b4b7c1;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    
-    justify-content: center;
-    align-items: center;
-    height: 100%;
 }
